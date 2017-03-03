@@ -1,0 +1,178 @@
+﻿/* Feuille de style IdoLogis v1 */
+
+/* Formats globaux */
+
+a {
+	color:#FFFFFF;
+	text-decoration:none;
+}
+span {
+	color:#FFFFFF;
+}
+a:hover {
+	text-decoration:underline;
+}
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	background-color:#000000;
+}
+label {
+	color:#F9DD0F;
+}
+fieldset {
+	color:#F9DD0F;
+	top:-200px;
+}
+/* Classes */
+
+span.gras {
+	color:#000000;
+	font-weight:bold;
+}
+
+div.accueil {
+	width:790px;
+	margin: 20px auto auto auto;
+	padding:5px;
+	border:1px solid #FFFFFF;	
+	color:#FFFFFF;
+}
+div.conteneur {
+	width:790px;
+	margin: 20px auto auto auto;
+	padding:5px;
+	background-color:#FFFFFF;
+	border:1px solid #F9DD0F;
+}
+div.conteneurConfirmation {
+	width:500px;
+	margin: 20px auto auto auto;
+	padding:5px;
+	background-color:#BBBBBB;
+	border:1px solid #BF3413;
+}
+div.conteneur2 {
+	text-align:center;
+	margin: 20px auto auto auto;
+}
+div.conteneurAdmin {
+	width:790px;
+	margin: 20px auto auto auto;
+	padding:5px;
+	background-color:#AAAAAA;
+	border:1px solid #F9DD0F;
+}
+img.bien {
+	width:500px;
+}
+img.logo {
+	width:223px;
+	height:100px;
+}
+img.logo2 {
+	width:700px;
+	height:300px;
+}
+p.centre {
+	text-align:center;
+}
+p.coord {
+	text-align:center;
+	color:#F9DD0F;
+	font-size:12px;
+	font-style:italic;
+	top:-50px;
+}
+table.liste {
+	width:700px;
+	margin:auto;
+	border:1px solid #000000;
+	text-align:center;
+}
+table.liste  th{
+	background-color:#BF3413;
+	color:#FFFFFF;
+}
+nav.admin_modif {
+	position:relative;
+}
+a.couleur {
+	color:#01DD0A;
+}
+a.couleurAdmin {
+	color:#BF3413;
+}
+form.modif{
+	position:relative;
+}
+
+/* Formats indépendants */
+
+a#menu_accueil {
+	display:block;
+	float:left;
+	width:144px;
+	height:50px;
+	background-image:url(img/accueil1.png);
+}
+a#menu_accueil:hover {
+	background-image:url(img/accueil2.png);
+}
+a#menu_contact {
+	display:block;
+	float:left;
+	width:144px;
+	height:50px;
+	background-image:url(img/contact1.png);
+}
+a#menu_contact:hover {
+	background-image:url(img/contact2.png);
+}
+a#menu_locations {
+	display:block;
+	float:left;
+	width:144px;
+	height:50px;
+	background-image:url(img/locations1.png);
+}
+a#menu_locations:hover {
+	background-image:url(img/locations2.png);
+}
+a#menu_ventes {
+	display:block;
+	float:left;
+	width:144px;
+	height:50px;
+	background-image:url(img/ventes1.png);
+}
+a#menu_ventes:hover {
+	background-image:url(img/ventes2.png);
+}
+div#bandeau {
+	position:relative;
+	width:800px;
+	height:100px;
+	margin:auto;
+}
+div#bandeau_coord {
+	position:absolute;
+	top:0px;
+	left:224px;
+	width:576px;
+	height:50px;
+}
+div#bandeau_logo {
+	position:absolute;
+	top:0px;
+	left:0px;
+	width:224px;
+	height:100px;
+}
+div#bandeau_menu {
+	position:absolute;
+	top:50px;
+	left:224px;
+	width:576px;
+	height:50px;
+}
